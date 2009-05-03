@@ -131,10 +131,18 @@ height:50px;
 	width: 400px;
 	}
 
-#murmur-list .list-date {
-	width:150px;
+.main-list .list-date {
 	padding:5px;
 }
+
+#article-box .list-date {
+	width:80px;
+}
+
+#murmur-list .list-date {
+	width:150px;
+}
+
 
 #murmur .box-more,
 #murmur-list .list-num,
