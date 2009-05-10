@@ -243,8 +243,8 @@ height:100px;
 	padding:0px 2px;
 	}
 .article-content a:hover{
-	background:#444;
-	color:#fff;
+	color:#444;
+	border:1px solid;
 	}
 .article-content img{
 
@@ -501,3 +501,24 @@ margin-top: 10px;
 display: none;
 }
 
+
+/* jQuery lightBox plugin - Gallery style */
+#gallery {
+	padding: 10px;
+	width: 600px;
+}
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+#gallery a { color: #444; }
+#gallery ul img {
+	border: 5px solid #444;
+	border-width: 5px 5px 20px;
+}
+#gallery ul a:hover img {
+	border: 5px solid #3e3e3e;
+	border-width: 5px 5px 20px;
+	color: #fff;
+}
+#gallery ul a:hover { 
+	color: #fff; 
+}
