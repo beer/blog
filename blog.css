@@ -22,6 +22,13 @@ body {
 	font-size:12px;
 	font-family: Century Gothic;
 	}
+code {
+    color:#007000;
+    font-family:monospace;
+}
+.str {
+    color:#008800;
+}
 /*--------------------------authority*/
 
 #authority{
@@ -237,6 +244,44 @@ height:100px;
 	color:#2D2D2F;
       	line-height:1.5em;
 	} 
+.article-content h1{
+	background:transparent none repeat scroll 0 0;
+	border:medium none;
+       	font-size:170%;
+       	line-height:130%;
+	margin:0 0 10px 0;
+	padding:0;
+}
+.article-content h2{
+    	background-color:#E5ECF9;
+	border-top:1px solid #3366CC;
+	font-size:130%;
+	font-weight:bold;
+	padding:1px 3px;
+	margin-top:30px;
+	position:relative;
+	}
+.article-content p{
+    	line-height:125%;
+	margin:0;
+	padding:10px 0 0 10px;
+}
+.article-content img{
+	border:1px solid; 
+	width:550px;
+}
+.article-content pre{
+    	background-color:#FAFAFA;
+	border:1px solid #BBBBBB;
+       	font-size:9pt;
+       	line-height:125%;
+	margin:10px 0 0 10px;
+	overflow:auto;
+	padding:0.99em;
+	}
+.article-content pre .cmd{
+    	font-weight:bold;
+}
 .article-content a{
 	color:#666;
 	background:#FFF;
@@ -244,10 +289,25 @@ height:100px;
 	}
 .article-content a:hover{
 	color:#444;
-	border:1px solid;
 	}
 .article-content img{
 
+	}
+.article-content .img-title{
+	width:600px;
+}
+.article-content .img-right,
+.article-content .img-left{
+	border:1px solid #CCC;
+	padding:5px;
+}
+	.article-content .img-left{
+		float: left;
+		margin: 0 15px 5px 0;
+	}
+	.article-content .img-right{
+		float: right;
+		margin: 0 0 5px 15px;
 	}
 .article-content .more{display:none;}
 .bookmark,
@@ -504,7 +564,7 @@ display: none;
 
 /* jQuery lightBox plugin - Gallery style */
 #gallery {
-	padding: 10px;
+	padding: 10px 0px;
 	width: 600px;
 }
 #gallery ul { list-style: none; }
